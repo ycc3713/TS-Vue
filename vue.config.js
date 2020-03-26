@@ -19,18 +19,18 @@ const cdn = {
   // 生产环境
   build: {
       css: [
-        // 'https://cdn.bootcss.com/element-ui/2.11.1/theme-chalk/index.css',
+        'https://cdn.bootcss.com/element-ui/2.11.1/theme-chalk/index.css',
         // 'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css'
       ],
       js: [
-        // 'https://cdn.bootcss.com/vue/2.6.10/vue.min.js',
-        // 'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
-        // 'https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js',
-        // 'https://cdn.bootcss.com/axios/0.19.0/axios.min.js',
+        'https://cdn.bootcss.com/vue/2.6.10/vue.min.js',
+        'https://cdn.bootcss.com/vue-router/3.1.2/vue-router.min.js',
+        'https://cdn.bootcss.com/vuex/2.3.1/vuex.min.js',
+        'https://cdn.bootcss.com/axios/0.19.0/axios.min.js',
         // 'https://cdn.bootcss.com/vue-i18n/8.13.0/vue-i18n.min.js',
-        // 'https://cdn.bootcss.com/element-ui/2.11.1/index.js',
-        // 'https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js',
-        // 'https://cdn.bootcss.com/Mock.js/1.0.1-beta3/mock-min.js',
+        'https://cdn.bootcss.com/element-ui/2.11.1/index.js',
+        'https://cdn.bootcss.com/echarts/3.8.5/echarts.min.js',
+        'https://cdn.bootcss.com/Mock.js/1.0.1-beta3/mock-min.js',
         // 'https://cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js',
         // 'https://cdn.bootcss.com/js-cookie/2.2.0/js.cookie.min.js'
       ]
@@ -117,13 +117,13 @@ module.exports = {
         "vue": "Vue",
         "vue-router": "VueRouter",
         "vuex": "Vuex",
-        "vue-i18n": "VueI18n",
+        // "vue-i18n": "VueI18n",
         "axios": "axios",
         'element-ui': 'ELEMENT',
         'echarts':'echarts',
         'mockjs':'Mock',
-        'nprogress':'NProgress',
-        'js-cookie':'Cookies'
+        // 'nprogress':'NProgress',
+        // 'js-cookie':'Cookies'
       }
       // 去除console来减少文件大小，效果同'UglifyJsPlugin'
       new TerserPlugin({
